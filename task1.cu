@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 #define N 4
-
+// 
 __global__ void MatAdd(int A[][N], int B[][N], int C[][N]){
            int i = threadIdx.x;
            int j = threadIdx.y;
